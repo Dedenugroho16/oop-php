@@ -135,4 +135,4 @@ echo $produk2->getHarga();
 echo "<hr>";
 
 $produk1->setDiskon(50);
-echo $produk1->getHarga();
+echo $produk1->getHarga ();
