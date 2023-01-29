@@ -101,14 +101,14 @@ class Game extends Produk {
 }
 
 
-// class CetakInfoProduk {
+class CetakInfoProduk {
 
-//     public function cetak( Produk $produk ) {
-//         $str = "{$produk->getLabel()}";
-//         return $str;
-//     }
+    public function cetak( Produk $produk ) {
+        $str = "{$produk->getLabel()}";
+        return $str;
+    }
 
-// }
+}
 
 
 $produk1 = new Komik("Naruto", "Masashi Kishimoto", "Shonen Jump", 30000, 100);
